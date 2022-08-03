@@ -1,10 +1,11 @@
 fn main() {
+    let x = plus_one(5);
 
-    println!("Hello, world!");
-    another_function();
+    println!("The value of x is: {}", x);
 }
 
-fn another_function() {
-    println!("Another Function.");
+fn plus_one(x: i32) -> i32 {
+    x + 1
 }
+
 
